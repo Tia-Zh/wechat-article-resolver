@@ -65,7 +65,7 @@ For a custom output path:
    - `ok`: use the extracted article content directly.
    - `partial`: continue only if enough content was extracted; mention that the extraction may need review.
    - `failed`: report the reason and ask the user for another source, a screenshot, or pasted text.
-3. Continue the user's original task. Do not assume the output should be a "小作文"; follow the user's request.
+3. Continue the user's original task.
 
 ## Boundaries
 
