@@ -1,0 +1,9 @@
+node_modules/
+outputs/
+*.traineddata
+*.log
+smoke.md
+ocr-smoke.md
+final-ocr-smoke.md
+.DS_Store
+Thumbs.db
