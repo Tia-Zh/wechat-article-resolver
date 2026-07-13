@@ -1,0 +1,16 @@
+{
+  "name": "wechat-article-resolver",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "POC resolver for WeChat public-account article links using browser extraction and OCR fallback.",
+  "scripts": {
+    "test": "node --test",
+    "install-browsers": "playwright install chromium",
+    "resolve": "node src/resolve.js"
+  },
+  "dependencies": {
+    "playwright": "^1.53.1",
+    "tesseract.js": "^6.0.1"
+  }
+}
